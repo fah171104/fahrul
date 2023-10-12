@@ -1,0 +1,88 @@
+.form {
+    width: 350px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 18px -2px rgba(0, 0, 0, 0.5);
+    padding: 40px 0px;
+    padding-right: 10px;
+    margin-left: 500px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    text-align: center;
+    width: 230px;
+    height: 35px;
+    margin-left: 60px;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Times New Roman';
+
+}
+
+.isi {
+    font-size: 15px;
+    margin-left: 79px;
+    font-family: 'Times New Roman';
+    margin-top: 20px;
+    font-weight: 100;
+    position: relative;
+    background: transparent;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    color: #495057;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+.txt {
+    margin-top: -20px;
+    margin-left: 67px;
+    color: black;
+}
+
+.form .kel {
+    margin-left: 170px;
+    font-size: 17px;
+    color: black;
+}
+
+.form .kell {
+    color: black;
+}
+
+button {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 67px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background: rgb(255, 166, 0);
+    color: white;
+    transition: 0.5s ease;
+    border: none;
+}
+
+button:hover {
+    background: black;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
